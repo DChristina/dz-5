@@ -8,13 +8,12 @@ public class Main {
         int sum1 = a + b;
         int sum2 = c + d;
 
-        System.out.println( sum1>sum2?true:false);
+        System.out.println( sum1>sum2);
 
         sum1++;
-        sum2--;
-        sum2--;
+        sum2 = sum2 -2;
 
-        System.out.println( sum1>sum2?true:false);
+        System.out.println( sum1>sum2);
 
         System.out.println((sum1%2==0) || (sum2%2==0)?true:false);
 
